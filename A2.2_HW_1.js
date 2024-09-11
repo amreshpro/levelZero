@@ -42,7 +42,41 @@ let isAkshayHigherJump = akshayHeight > raviHeight
 console.log("Did Akshay jump higher than Ravi?", isAkshayHigherJump)
 
 
+console.log("---- ---- ----")
 
+console.log("Exercise 2")
+console.log("---- ---- ----")
 
+console.log("2.1")
+let milkPrice = 199
+let breadPrice = 299
+let budget = 300
+let totalPrice = milkPrice + breadPrice
 
+let areBothUnderBudget=budget>totalPrice
+console.log("Can I buy both Milk and Bread within my budget?",areBothUnderBudget);
+
+console.log("---- ---- ----")
+
+console.log("2.2")
+let gangaCricketClubScore = 78
+let yumunaCricketClubScore = 63
+let narmadaCricketClubScore = 52
+let godavariCricketClubScore = 72
+
+let averageScore = (gangaCricketClubScore + yumunaCricketClubScore + narmadaCricketClubScore + gangaCricketClubScore)/4
+let minimumAverage = 60
+
+let isSelected = averageScore>minimumAverage 
+console.log("Am I selected for the cricket camp?",isSelected);
+
+console.log("---- ---- ----")
+
+console.log("2.3")
+let numberOfStudents = 72
+let isDivisibleBy4 = numberOfStudents % 4 === 0
+let isDivisibleBy9 = numberOfStudents % 9 === 0
+
+console.log("Can the students be divided into groups of 4? ",isDivisibleBy4);
+console.log("Can the students be divided into groups of 9? ",isDivisibleBy9);
 

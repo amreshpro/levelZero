@@ -43,7 +43,7 @@ let profession1 = "Doctor";
 let greetings1 = "Good Morning, " + person1 + "!";
 let bio1 = person1 + " is a " + profession1 + "\n";
 
-console.log(greeting1);
+console.log(greetings1);
 console.log(bio1);
 
 let person2 = "Gabbar";
@@ -51,7 +51,7 @@ let profession2 = "Dacoit";
 let greetings2 = "Hello, " + person2 + "!";
 let bio2 = person2 + " is a " + profession2 + "\n";
 
-console.log(greeting2);
+console.log(greetings2);
 console.log(bio2);
 
 
@@ -60,5 +60,5 @@ let profession3 = "Con";
 let greetings3 = "Namaste, " + person3 + "!";
 let bio3 = person3 + " is a " + profession3 + "\n";
 
-console.log(greeting3);
+console.log(greetings3);
 console.log(bio3);

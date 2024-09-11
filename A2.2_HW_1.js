@@ -21,8 +21,8 @@ console.log("---- ---- ----")
 
 console.log("1.3")
 let akshayDistance = 7.83
-let raviDistance = 7.68 
-let isAkshayLongerJump = akshayDistance>raviDistance
+let raviDistance = 7.68
+let isAkshayLongerJump = akshayDistance > raviDistance
 console.log("Did Akshay make a longer jump than Ravi?", isAkshayLongerJump)
 
 console.log("---- ---- ----")
@@ -30,7 +30,7 @@ console.log("---- ---- ----")
 console.log("1.4")
 let akshayDistanceShotPut = 19.75
 let raviDistanceShotPut = 18.92
-let isAkshayLongerThrow = akshayDistanceShotPut>raviDistanceShotPut
+let isAkshayLongerThrow = akshayDistanceShotPut > raviDistanceShotPut
 console.log("Did Akshay make a longer throw than Ravi?", isAkshayLongerThrow)
 
 console.log("---- ---- ----")
@@ -38,7 +38,9 @@ console.log("---- ---- ----")
 console.log("1.5")
 let akshayHeight = 2.05
 let raviHeight = 1.98
-let
+let isAkshayHigherJump = akshayHeight > raviHeight
+console.log("Did Akshay jump higher than Ravi?", isAkshayHigherJump)
+
 
 
 

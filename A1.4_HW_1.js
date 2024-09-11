@@ -20,11 +20,11 @@ console.log("Rating: " + destinationOneRating);
 console.log("Visitors per Year: " + destinationOneVisitorsPerYear);
 console.log(
   "Attractions: " +
-    destinationOneAttraction1 +
-    ", " +
-    destinationOneAttraction2 +
-    ", " +
-    destinationOneAttraction3,
+  destinationOneAttraction1 +
+  ", " +
+  destinationOneAttraction2 +
+  ", " +
+  destinationOneAttraction3,
 );
 console.log("Destination: " + destinationOneDescription);
 
@@ -49,11 +49,11 @@ console.log("Rating: " + destinationTwoRating);
 console.log("Visitors per Year: " + destinationTwoVisitorsPerYear);
 console.log(
   "Attractions: " +
-    destinationTwoAttraction1 +
-    ", " +
-    destinationTwoAttraction2 +
-    ", " +
-    destinationTwoAttraction3,
+  destinationTwoAttraction1 +
+  ", " +
+  destinationTwoAttraction2 +
+  ", " +
+  destinationTwoAttraction3,
 );
 console.log("Destination: " + destinationTwoDescription);
 

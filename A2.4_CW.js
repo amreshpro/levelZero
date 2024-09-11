@@ -11,7 +11,7 @@ let finalPrice = originalPrice - discountAmount
 
 console.log("Original Price: ", originalPrice);
 console.log("DiscountPercentage: ", discountPercentage);
-console.log("Final Price: ",finalPrice);
+console.log("Final Price: ", finalPrice);
 
 console.log("---- ---- ----");
 
@@ -22,6 +22,26 @@ let itemThree = "Shoes"
 let itemOnePrice = 500
 let itemTwoPrice = 1500
 let itemThreePrice = 2000
-let itemOneQuantity =2
-let itemTwoQuantity =1
-let itemThreeQuantity =1
+let itemOneQuantity = 2
+let itemTwoQuantity = 1
+let itemThreeQuantity = 1
+
+let totalItemOnePrice = itemOnePrice * itemOneQuantity
+let totalItemTwoPrice = itemTwoPrice * itemTwoQuantity
+let totalItemThreePrice = itemThreePrice * itemThreeQuantity
+
+let totalCarPrice = totalItemOnePrice + totalItemTwoPrice + itemThreePrice
+
+console.log("Item One: ",itemOne);
+console.log("Item Two: ",itemTwo);
+console.log("Item Three: ",itemThree);
+
+console.log("-------------------------------")
+
+console.log("Price of",itemOne,"*",itemOneQuantity,":",totalItemOnePrice);
+console.log("Price of",itemTwo,"*",itemTwoQuantity,":",totalItemTwoPrice);
+console.log("Price of",itemThree,"*",itemThreeQuantity,":",totalItemThreePrice);
+
+console.log("-------------------------------")
+
+console.log("Total Cart Price:",totalCarPrice);

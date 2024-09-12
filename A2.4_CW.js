@@ -51,4 +51,4 @@ console.log("Price of ", itemOne, "x", itemTwoQuantity, ":", totalItemTwoPrice)
 
 console.log("Price of ", itemOne, "x", itemThreeQuantity, ":", totalItemThreePrice)
 console.log("-------------------------------")
-console.log("Total Cart Price:", totalCarPrice);
+console.log("Total Cart Price:", totalCartPrice);

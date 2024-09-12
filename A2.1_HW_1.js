@@ -91,4 +91,4 @@ let average = (numOne + numTwo + numThree) / 3
 console.log("Numbers: " + numOne + " " + numTwo + " " + numThree)
 console.log("Average: ", average)
 
-console.log("---- ---- ----")
+

@@ -17,3 +17,65 @@ let hasDramaSchoolEndorsement = true
 let isSelected = hasDramaSchoolEndorsement && averageMarks >=80
 
 console.log("Is the user selected? ",isSelected)
+
+
+console.log("---- ---- ----");
+
+console.log("1.2");
+let foodBill  = 1500
+let hasZomatoGoldMembership = true
+
+let qualifiesForDiscountedBill = foodBill  < 2000 || hasZomatoGoldMembership
+
+console.log("Does the user qualify to pay the food bill at a discounted price? ", qualifiesForDiscountedBill);
+
+console.log("---- ---- ----");
+
+console.log("1.3");
+
+let piggybank1Balance = 2000
+let piggybank2Balance = 1500
+let penCost  = 50
+let notebookCost  = 100
+let pencilCost  = 20
+let totalCost = penCost + notebookCost + pencilCost
+
+let canWeAffordStationery = piggybank1Balance >=totalCost || piggybank2Balance >= totalCost
+console.log("Can you afford the purchase? ",canWeAffordStationery);
+
+
+
+console.log("---- ---- ----");
+console.log("Exercise 2");
+console.log("---- ---- ----");
+
+console.log("2.1");
+let personAge  = 25
+let isAgeInRange = personAge >=18 && personAge <=60
+
+console.log("Is the person's age between 18 and 60? ", isAgeInRange);
+
+
+console.log("---- ---- ----");
+console.log("Exercise 3");
+console.log("---- ---- ----");
+console.log("3.1");
+
+let tvScreenSize = 55
+let tvBrand = "Sony"
+let tvPrice = 50000
+
+let meetsCriteria = tvScreenSize >=50 && tvPrice<=60000 && (tvBrand ==="Sony" || tvBrand==="Samsung")
+console.log("Does the TV meet the criteria? ",meetsCriteria);
+
+
+console.log("---- ---- ----");
+console.log("3.2");
+
+let watchReleaseYear = 2022
+let watchSize = "L"
+let watchBrand  = "Apple"
+
+let isDiscountApplicable = watchReleaseYear>2024 && (watchSize === "M"|| watchSize==="L") && (watchBrand === "Apple" || watchBrand ==="Samsung")
+
+console.log("Is the discount applicable? ", isDiscountApplicable);

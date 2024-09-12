@@ -11,6 +11,7 @@ let finalPrice = originalPrice - discountAmount
 
 console.log("Original Price: ", originalPrice);
 console.log("DiscountPercentage: ", discountPercentage);
+console.log("Discount Amount: ",discountAmount);
 console.log("Final Price: ", finalPrice);
 
 console.log("---- ---- ----");

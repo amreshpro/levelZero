@@ -3,7 +3,7 @@ console.log("A2.4_CW")
 console.log("---- ---- ----")
 console.log("Exercise 1")
 console.log("---- ---- ----")
-console.log("1.6")
+console.log("1.1")
 let originalPrice = 1000
 let discountPercentage = 25
 let discountAmount = (originalPrice * discountPercentage) / 100
@@ -30,7 +30,7 @@ let totalItemOnePrice = itemOnePrice * itemOneQuantity
 let totalItemTwoPrice = itemTwoPrice * itemTwoQuantity
 let totalItemThreePrice = itemThreePrice * itemThreeQuantity
 
-let totalCarPrice = totalItemOnePrice + totalItemTwoPrice + itemThreePrice
+let totalCartPrice = totalItemOnePrice + totalItemTwoPrice + itemThreePrice
 
 console.log("Item One: ",itemOne);
 console.log("Item Two: ",itemTwo);
@@ -44,4 +44,11 @@ console.log("Price of",itemThree,"*",itemThreeQuantity,":",totalItemThreePrice);
 
 console.log("-------------------------------")
 
+console.log("Price of ",itemOne,"x",itemOneQuantity,":",totalItemOnePrice)
+
+
+console.log("Price of ",itemOne,"x",itemTwoQuantity,":",totalItemTwoPrice)
+
+console.log("Price of ",itemOne,"x",itemThreeQuantity,":",totalItemThreePrice)
+console.log("-------------------------------")
 console.log("Total Cart Price:",totalCarPrice);

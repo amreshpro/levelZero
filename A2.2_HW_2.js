@@ -65,10 +65,18 @@ let physicsScore = 78
 let minimumAverage = 85
 
 let averageScore = (mathScore + englishScore + physicsScore) / 3
-let isQualified = averageScore >= minimumAverage 
+let isQualified = averageScore >= minimumAverage
 console.log("Am I qualified for the olympiad?", isQualified);
+console.log("---- ---- ----")
 
+console.log("2.3")
+let productQuantity = 60
 
+let isDivisibleBy5 = productQuantity % 5 === 0
+let isDivisibleBy10 = productQuantity % 10 === 0
+
+console.log("Can the product quantity be sold in baches of 5 ? ", isDivisibleBy5);
+console.log("Can the product quantity be sold in baches of 10 ", isDivisibleBy10);
 
 
 

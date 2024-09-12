@@ -36,19 +36,18 @@ console.log("Item One: ", itemOne);
 console.log("Item Two: ", itemTwo);
 console.log("Item Three: ", itemThree);
 
-console.log("-------------------------------")
 
-console.log("Price of", itemOne, "*", itemOneQuantity, ":", totalItemOnePrice);
-console.log("Price of", itemTwo, "*", itemTwoQuantity, ":", totalItemTwoPrice);
-console.log("Price of", itemThree, "*", itemThreeQuantity, ":", totalItemThreePrice);
 
 console.log("-------------------------------")
 
 console.log("Price of ", itemOne, "x", itemOneQuantity, ":", totalItemOnePrice)
 
 
-console.log("Price of ", itemOne, "x", itemTwoQuantity, ":", totalItemTwoPrice)
+console.log("Price of ", itemTwo, "x", itemTwoQuantity, ":", totalItemTwoPrice)
 
-console.log("Price of ", itemOne, "x", itemThreeQuantity, ":", totalItemThreePrice)
+console.log("Price of ", itemThree, "x", itemThreeQuantity, ":", totalItemThreePrice)
+
+
 console.log("-------------------------------")
+
 console.log("Total Cart Price:", totalCartPrice);

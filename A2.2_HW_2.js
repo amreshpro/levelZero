@@ -58,18 +58,26 @@ console.log("Can I buy both a T-shirt and jeans within my budget?", areBothUnder
 
 console.log("---- ---- ----")
 console.log("2.2")
-console.log("---- ---- ----")
+
 let mathScore = 85
 let englishScore = 92
 let physicsScore = 78
 let minimumAverage = 85
 
 let averageScore = (mathScore + englishScore + physicsScore) / 3
-let isQualified = averageScore >= minimumAverage 
+let isQualified = averageScore >= minimumAverage
 console.log("Am I qualified for the olympiad?", isQualified);
 
 
+console.log("---- ---- ----")
+console.log("2.3")
 
+let productQuantity = 60
+let isDivisibleBy5 = productQuantity % 5 === 0
+let isDivisibleBy10 = productQuantity % 10 === 0
+console.log("Can the product quntity be sold in bathes of 5?", isDivisibleBy5);
+
+console.log("Can the product quntity be sold in bathes of 10?", isDivisibleBy10);
 
 
 

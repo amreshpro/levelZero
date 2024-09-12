@@ -43,9 +43,9 @@ console.log("---- ---- ----")
 
 console.log("1.5")
 
-let modulo = numOne % numTwo
+let remainder = numOne % numTwo
 console.log("Numbers: " + numOne + " " + numTwo);
-console.log("Remainder: ", modulo);
+console.log("Remainder: ", remainder);
 
 console.log("---- ---- ----")
 console.log("Exercise 2")
@@ -91,4 +91,5 @@ let average = (numOne + numTwo + numThree) / 3
 console.log("Numbers: " + numOne + " " + numTwo + " " + numThree)
 console.log("Average: ", average)
 
+console.log("---- ---- ----")
 

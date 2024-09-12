@@ -22,3 +22,8 @@ let difference =  numOne - numTwo
 console.log("Numbers: " + numOne + " " + numTwo)
 console.log("Difference: ",difference)
 
+console.log("---- ---- ----")
+
+console.log("1.3")
+
+

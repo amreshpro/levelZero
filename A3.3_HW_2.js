@@ -43,11 +43,11 @@ else {
 
 
 
-console.log("Goal Amount: ", goalAmount);
-console.log("Quarterly Goal Amount: ", quarterlyGoalAmount);
-console.log("Total Current Savings: ", totalCurrentSavings);
-console.log("Total Savings Contributions: ", totalSavingsContributions);
-console.log("Percentage Achieved: ", percentageAchieved);
+console.log("Goal Amount: $", goalAmount);
+console.log("Quarterly Goal Amount: $", quarterlyGoalAmount);
+console.log("Total Current Savings: $", totalCurrentSavings);
+console.log("Total Savings Contributions: $", totalSavingsContributions);
+console.log("Percentage Achieved: ", percentageAchieved,"%");
 
 console.log("Projected Timeline: ", projectTimeline);
 console.log("Savings Tips:", savingsTips)

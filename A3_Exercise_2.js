@@ -1,21 +1,20 @@
 console.log("A3_Exercise_2");
 console.log("-----------------------------");
-console.log("Daily Reports: ");
 
 let day1Burnt = 400
 let day1Intake = 1500
 
-let day2Burnt = 400
-let day2Intake = 1500
+let day2Burnt = 450
+let day2Intake = 1800
 
-let day3Burnt = 400
-let day3Intake = 1500
+let day3Burnt = 300
+let day3Intake = 1600
 
-let day4Burnt = 400
-let day4Intake = 1500
+let day4Burnt = 500
+let day4Intake = 2000
 
-let day5Burnt = 400
-let day5Intake = 1500
+let day5Burnt = 350
+let day5Intake = 1700
 
 let baseCalorie = 1500
 
@@ -30,15 +29,29 @@ let totalBurnt = day1Burnt + day2Burnt + day3Burnt + day4Burnt + day5Burnt
 let totalIntake = day1Intake + day2Intake + day3Intake + day4Intake + day5Intake
 let totalSurplus = totalBurnt - (totalIntake - (5*baseCalorie))
 
-let day1Report = day1Surplus > 0 ? "Surplus" : "Deficit"
-let day2Report = day2Surplus > 0 ? "Surplus" : "Deficit"
-let day3Report = day3Surplus > 0 ? "Surplus" : "Deficit"
-let day4Report = day4Surplus > 0 ? "Surplus" : "Deficit"
-let day5Report = day5Surplus > 0 ? "Surplus" : "Deficit"
+let isSurplusOrDeficit1 = day1Surplus > 0 ? "Surplus" : "Deficit"
+let isSurplusOrDeficit2 = day2Surplus > 0 ? "Surplus" : "Deficit"
+let isSurplusOrDeficit3 = day3Surplus > 0 ? "Surplus" : "Deficit"
+let isSurplusOrDeficit4 = day4Surplus > 0 ? "Surplus" : "Deficit"
+let isSurplusOrDeficit5 = day5Surplus > 0 ? "Surplus" : "Deficit"
 
-let dailyReports = "Daily Reports:\n" + "Day 1: " + day1Report+": " + day1Surplus +"(" + day1Report + ")"
+let dailyDay1Reports =  "Day 1: " +isSurplusOrDeficit1+": " + day1Surplus +" (" + isSurplusOrDeficit1 + ")\n"
+let dailyDay2Reports =  "Day 2: " +isSurplusOrDeficit2+": " + day2Surplus +" (" + isSurplusOrDeficit2 + ")\n"
+let dailyDay3Reports =  "Day 3: " +isSurplusOrDeficit3+": " + day3Surplus +" (" + isSurplusOrDeficit3 + ")\n"
+let dailyDay4Reports =  "Day 4: " +isSurplusOrDeficit4+": " + day4Surplus +" (" + isSurplusOrDeficit4 + ")\n"
+let dailyDay5Reports =  "Day 5: " +isSurplusOrDeficit5+": " + day5Surplus +" (" + isSurplusOrDeficit5 + ")\n"
 
 
+let dailyReports = dailyDay1Reports +dailyDay2Reports+dailyDay3Reports+dailyDay4Reports+dailyDay5Reports
+
+
+console.log("Daily Reports:\n" );
 console.log(dailyReports);
-// let weeklySummary = "\n Weekly Summary: \n"
-// let standingGoalAwards = ""
+
+
+console.log("-----------------------------");
+
+console.log()
+let weeklySummary = "\nWeekly Summary:\n"
+let standingGoalAwards 
+
